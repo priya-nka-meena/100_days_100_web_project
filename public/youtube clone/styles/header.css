@@ -240,3 +240,33 @@
   border-radius: 50%;
   object-fit: cover;
 }
+
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.hamburger-menu {
+  height: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+  cursor: pointer;
+}
+
+.youtube-logo {
+  height: 20px;
+  cursor: pointer;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .youtube-logo {
+    height: 18px;
+  }
+
+  .hamburger-menu {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+}
